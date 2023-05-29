@@ -14,8 +14,17 @@
 		<servlet-name>first</servlet-name>
 		<url-pattern>/app1</url-pattern>
 	</servlet-mapping>
-	
-	
+
+	<servlet>
+		<servlet-name>second</servlet-name>
+		<servlet-class>com.lifecycle.GenericServletClass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>second</servlet-name>
+		<url-pattern>/app2</url-pattern>
+	</servlet-mapping>
+
+
 
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
